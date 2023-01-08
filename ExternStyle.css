@@ -1,0 +1,14 @@
+/* Style applied for all paragraphs by internal styles*/
+            p {
+                color: green; /* text color*/
+            }
+        
+ /* Style applied for all user information using class attribute by internal styles*/
+           .user-info {
+                color: green; /* text color*/
+            }
+
+/* Style applied for submit button using id attribute by internal styles*/
+            #submit-button {
+                background-color: green; /* background color*/
+            }
