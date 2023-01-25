@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(22, 193, 245, 0.906);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align:center;
+    padding: 20px;
+    color: black;
+}
+
+.login{
+    width: 382px;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    border-radius: 15px;
+    background: #23463f;
+}
+
+label{
+    color: aqua;
+    font-size: 17px;
+}
+
+#uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 8px;
+}
+
+#password{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 8px;
+}
+
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#check {
+    color:white;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+    color: white;
+}
+#new {
+    float:left;
+    background-color:rgb(249, 212, 156);
+}
+
+#reset {
+    float: right;
+    background-color:rgb(249, 212, 156);
+}
+

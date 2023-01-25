@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE USING BOX MODEL</title>
+
+    <link type="text/css" rel="stylesheet" href="Loginstyle.css">
+
+</head>
+<body>
+        <h1>Login Page</h1>
+        <div class="login">
+            <form id="login">
+        <!--label for getting username-->
+        <label for="username">User Name</label><br>
+        <!--input element - mandatory field-->
+        <input type="text" name="username" id="uname" required placeholder="Username"><br><br>
+        
+        <!--label for getting user password-->
+        <label for="passwrd">Password</label><br>
+        <!--input element - mandatory field-->
+        <input type="password" name="password" id="password" required placeholder="Password"><br><br>
+        
+        <!--input type as login this is act as a button-->
+        <input type="submit" id="log" value="Log In Here"><br><br>
+
+        <!--input type as checkbox for password remembering-->
+        <input type="checkbox" id="check"><span>Remember me</span><br><br>
+        
+        <!--link for new account creation-->
+        <a href="newaccount.html" id="new">Create account</a>
+
+        <!--link for forgot password -->
+        <a href="passwordreset.html" id="reset">Forgot Password?</a>
+        </form>
+    </div>
+    </body>
+</html>
