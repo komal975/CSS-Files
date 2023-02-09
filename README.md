@@ -1,2 +1,3 @@
-# CSS-TYPES
-CSS Types like Inline CSS, Internal CSS &amp; External CSS
+# CSS-Language Features
+CSS Types,selectors,backgrounds,borders,box model,text & fonts,float & display,positioning,flex,grid,combinators,animations,nav bar & responsive web designs..
+
